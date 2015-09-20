@@ -1,9 +1,9 @@
+require 'require_all'
+require 'rest-client'
+
+require_rel 'boxenite/command'
+
 module Boxenite
-  class Command
-    class << self
-      def exec(string)
-        puts string
-      end
-    end
-  end
+  HOST = 'localhost'
+  PORT = 2015
 end
